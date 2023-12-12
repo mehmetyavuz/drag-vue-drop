@@ -49,4 +49,4 @@ const handleDrop = (index) => {
 }
 ```
 ### Demo
-![drag-vue-drop.gif](drag-vue-drop.gif)
+![drag-vue-drop.gif](https://github.com/mehmetyavuz/drag-vue-drop/raw/main/drag-vue-drop.gif)

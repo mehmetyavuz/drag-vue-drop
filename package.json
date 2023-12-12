@@ -19,6 +19,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": ["vue", "sort", "drag", "drop", "drag drop", "vue3"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehmetyavuz/drag-vue-drop.git"
+  },
   "dependencies": {
     "vue": "^3.3.4"
   },
