@@ -1,0 +1,30 @@
+{
+  "name": "drag-vue-drop",
+  "version": "0.0.0",
+  "private": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/drag-vue-drop.cjs",
+  "module": "./dist/drag-vue-drop.js",
+  "exports": {
+    ".": {
+      "import": "./dist/drag-vue-drop.js",
+      "require": "./dist/drag-vue-drop.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "vite-plugin-libcss": "^1.1.1"
+  }
+}

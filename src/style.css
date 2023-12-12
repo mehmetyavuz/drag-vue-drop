@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .block {
+        &.hidden {
+            display: none
+        }
+    }
+
+    .draggable-container {
+        &:hover {
+            cursor: grab;
+        }
+
+        &.dragging {
+            z-index: 100;
+            position: absolute;
+            cursor: grabbing;
+        }
+    }
+}
